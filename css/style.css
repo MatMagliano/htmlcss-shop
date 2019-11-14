@@ -3,13 +3,16 @@
   margin: 0;
   padding: 0;
 }
+
 .container {
-
+  padding: 15px;
 }
-
 .fila {
-  background: lightblue;
-  width: 1000px;
-  height: 100px;
-  margin: 10px;
+  margin-bottom: 10px;
 }
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+.discount

@@ -15,4 +15,14 @@
   position: relative;
   display: inline-block;
 }
-.discount
+.box .discount  {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: lightgreen;
+  padding: 2px;
+}
+
+.box:nth-child(2n) .discount{
+  background-color: #F9564F;
+}
